@@ -43,9 +43,6 @@ load-module module-bluetooth-discover
 .endif
 
 ### Load several protocols
-.ifexists module-esound-protocol-unix.so
-load-module module-esound-protocol-unix
-.endif
 load-module module-native-protocol-unix
 
 ### Load additional modules from GConf settings. This can be configured with the paprefs tool.
